@@ -11,7 +11,7 @@ function syncReadFile(filename) {
   return arr;
 }
 
-const arr = syncReadFile(path.resolve(__dirname, "input.txt"));
+const arr = syncReadFile(path.resolve(path.join(__dirname, "..", "input.txt")));
 
 let numIncreases = 0;
 
@@ -20,3 +20,5 @@ for (let i = 1; i < arr.length; i++) {
     numIncreases++;
   }
 }
+
+console.log(numIncreases); //1226
