@@ -19,8 +19,9 @@ You will find my solutions organized in the following way:
 ```
 -- Year
    -- Day[number]
-   -- question.txt
+   -- example-input.txt
+   -- input.txt
+   -- README.md
       -- Part[number]
-         -- input.txt
          -- solution.js
 ```
